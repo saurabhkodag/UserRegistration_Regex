@@ -35,3 +35,13 @@ else{
     console.
     log("unsuccessfull");
 }
+//Password
+let pass="Sourabhkoda2@"
+let ppregx = /^(?=.*[0-9])(?=.*[!@#$%^&*])(?=.*[A-Z]).{8,}$/;
+if(ppregx.test(pass)){
+    console.log("successfull");
+}
+else{
+    console.
+    log("unsuccessfull");
+}
