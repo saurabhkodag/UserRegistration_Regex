@@ -25,23 +25,3 @@ if(eregx.test(email)){
 else{
     console.log("unsuccessfull");
 }
-//UC4
-let phone="91 9922992299";
-let pregx=/^([0-9]+)[ ]([0-9]{10})$/;
-if(pregx.test(phone)){
-    console.log("successfull");
-}
-else{
-    console.
-    log("unsuccessfull");
-}
-//Password
-let pass="Sourabhkoda2@"
-let ppregx = /^(?=.*[0-9])(?=.*[!@#$%^&*])(?=.*[A-Z]).{8,}$/;
-if(ppregx.test(pass)){
-    console.log("successfull");
-}
-else{
-    console.
-    log("unsuccessfull");
-}
